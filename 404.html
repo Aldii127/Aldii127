@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>🚧 | Aldi</title>
+   <link rel="icon" type="image/png" href="resource/as.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+    .floating {
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes fadeZoom {
+      from { opacity: 0; transform: translateY(20px) scale(0.95); }
+      to   { opacity: 1; transform: translateY(0) scale(1); }
+    }
+    .fade-zoom {
+      animation: fadeZoom 1s ease-out forwards;
+    }
+
+    .glow-btn {
+      box-shadow: 0 0 15px rgba(59,130,246,0.5);
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-indigo-100 via-white to-blue-200 flex items-center justify-center min-h-screen px-4">
+
+  <div class="text-center max-w-xl fade-zoom">
+
+    <!-- Judul -->
+    <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 leading-tight">
+      Halaman <span class="text-blue-600">Sedang Maintence</span>
+    </h1>
+
+    <!-- Deskripsi -->
+    <p class="text-gray-600 text-lg mt-4 leading-relaxed">
+      Terima kasih sudah berkunjung <br>
+      Bagian ini masih saya kembangkan.<br>
+      Stay tuned ya! 🚀
+    </p>
+
+    <!-- Tombol -->
+    <a href="index.html" class="inline-block mt-8 bg-blue-600 text-white text-lg font-semibold px-6 py-3 rounded-full glow-btn hover:bg-blue-700 hover:scale-105 transition duration-300 ease-in-out">
+      Kembali ke Beranda
+    </a>
+  </div>
+
+</body>
+</html>
