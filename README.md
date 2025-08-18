@@ -27,7 +27,7 @@ Buka file index.html di browser.
 
 📸 Preview
 
-👉 Demo Portfolio
+👉 Demo Portfolio : https://aldii127.github.io/Aldii127/
 
 ⚖️ Lisensi
 
